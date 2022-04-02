@@ -1,71 +1,79 @@
 .app {
-  display: flex;
-  height: 500px;
+	display: flex;
+	height: 500px;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .headings {
-  display: flex;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .brush-selection {
-  height: 70px;
-  display: flex;
+	height: 70px;
+	display: flex;
 }
 
 .paint {
-  height: 250px;
-  display: flex;
+	height: 250px;
+	display: block;
+	margin-top: 200px;
+	margin-left: -600px;
 }
 
 .palette {
-  display: flex;
-  margin-left: -30px;
+	display: flex;
+	margin-left: -30px;
 }
 
 .brush {
-  display: flex;
+	display: flex;
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
+	width: 30px;
+	height: 30px;
 }
 
-.current-brush, .palette-color {
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
+.current-brush,
+.palette-color {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
 }
 
 .canvas {
-  display: grid;
-  grid-template-rows: repeat(10, 1fr);
-  grid-template-columns: repeat(10, 1fr);
-  height: 300px;
-  width: 300px;
-  border: 1px solid black;
+	display: grid;
+	grid-template-rows: repeat(10, 1fr);
+	grid-template-columns: repeat(10, 1fr);
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
 }
 
 .square {
-  transition: 0.5s;
+	transition: 0.5s;
 }
 
 .color-1 {
-
+	background-color: red;
 }
 
 .color-2 {
-
+	background-color: blue;
 }
 
 .color-3 {
-
+	background-color: green;
 }
 
 .color-4 {
-
+	background-color: pink;
 }
 
 .color-5 {
-
+	background-color: purple;
 }
